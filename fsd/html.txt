@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Template</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section class="faq-section">
+        <h2>Do You Have Questions?</h2>
+        <p>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet.</p>
+        <div class="faq-container">
+            <div class="faq">
+                <input type="checkbox" id="faq1">
+                <label for="faq1" class="faq-toggle">
+                    <span class="faq-label">What is Responsive Design?</span>
+                    <span class="plus">+</span>
+                </label>
+                <div class="faq-content">
+                    <p>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet, wisi risus purus augue vulputate volutpat neque, curabitur dolor libero sodales vitae elit massa. Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet.</p>
+                    <p>Nunc eu nibh vel augue mollis tincidunt id efficitur tortor. Sed pulvinar est sit amet tellus iaculis hendrerit. Mauris justo erat, rhoncus in arcu at, scelerisque tempor erat.</p>
+                </div>
+            </div>
+            <div class="faq">
+                <input type="checkbox" id="faq2">
+                <label for="faq2" class="faq-toggle">
+                    <span class="faq-label">What are latest UX Developments?</span>
+                    <span class="plus">+</span>
+                </label>
+                <div class="faq-content">
+                    <p>Content for latest UX developments goes here.</p>
+                </div>
+            </div>
+            <div class="faq">
+                <input type="checkbox" id="faq3">
+                <label for="faq3" class="faq-toggle">
+                    <span class="faq-label">What things about Social Media will be discussed?</span>
+                    <span class="plus">+</span>
+                </label>
+                <div class="faq-content">
+                    <p>Content about social media discussions goes here.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="venue-section">
+        <div class="venue">
+            <h2>Venue</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet. Dolore magna aliquam erat volutpat.</p>
+            <p>New Event<br>
+                120 Market Street, Suite 110<br>
+                San Francisco, CA 10110<br>
+                Tel: 010-020-0120
+            </p>
+        </div>
+    </section>
+</body>
+</html>

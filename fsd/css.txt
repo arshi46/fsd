@@ -1,0 +1,109 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+/* FAQ Section Styles */
+.faq-section {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #fff;
+}
+
+.faq-section h2 {
+  margin-bottom: 10px;
+  font-size: 2em;
+}
+
+.faq-section p {
+  margin-bottom: 30px;
+  color: #666;
+}
+
+.faq-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.faq {
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.faq input {
+  display: none;
+}
+
+.faq-toggle {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 15px;
+  background-color: #f7f7f7;
+  cursor: pointer;
+  border-bottom: 1px solid #ddd;
+  position: relative;
+}
+
+.faq-label {
+  flex: 1;
+}
+
+.plus {
+  font-size: 20px;
+  margin-left: auto; /* Push the plus symbol to the right */
+  display: block;
+}
+
+.faq-content {
+  display: none; /* Hide content by default */
+  padding: 15px;
+  background-color: #fff;
+  border-top: 1px solid #ddd;
+}
+
+.faq-content p {
+  margin: 0;
+}
+
+.faq input:checked ~ .faq-content {
+  display: block; /* Show content when checkbox is checked */
+}
+
+.faq input:checked ~ .faq-toggle .plus {
+  display: none; /* Hide the plus symbol when expanded */
+}
+
+/* Venue Section Styles */
+.venue-section {
+  padding: 50px 20px;
+  background-color: #f2f2f2;
+  text-align: center;
+  color: #333;
+}
+
+.venue-section h2 {
+  margin-bottom: 10px;
+  font-size: 2em;
+}
+
+.venue-section p {
+  color: #666;
+}
+
+.venue p {
+  margin: 0;
+  line-height: 1.6;
+}
+
+/* Background image for venue section (if needed) */
+.venue-section {
+  background-color:pink;
+}
